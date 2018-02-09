@@ -9,7 +9,7 @@ const port = process.env.PORT;
 ```
 
 ```javascript
-const strict = require('strict-attributes);
+const strict = require('strict-attributes');
 
 // Exception will be thrown if environment variable not set.
 const port = strict(process.env).PORT; 
