@@ -1,6 +1,6 @@
 {
   "name": "strict-attributes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a plain object into an object that throws error on try to read attributes that does not exist.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,5 @@
   "devDependencies": {
     "jest": "^22.2.1"
   },
-  "dependencies": {
-    "is-plain-object": "^2.0.4"
-  }
+  "dependencies": {}
 }

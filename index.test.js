@@ -15,7 +15,6 @@ test('Fail on attribute that does not exist', () => {
 });
 
 test('Fail on not plain object', () => {
-  expect(() => strict([])).toThrowError("Argument should be a plain object");
-  expect(() => strict('foo')).toThrowError("Argument should be a plain object");
+  expect(() => strict('foo')).toThrowError("Argument should be an object");
 });
 
