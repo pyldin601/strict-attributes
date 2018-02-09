@@ -1,5 +1,5 @@
 {
-  "name": "strict-attribute",
+  "name": "strict-attributes",
   "version": "1.0.0",
   "description": "Converts a plain object into an object that throws error on try to read attributes that does not exist.",
   "main": "index.js",
